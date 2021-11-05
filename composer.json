@@ -1,0 +1,18 @@
+{
+    "name": "postcc/matrizcompadroesdeprojeto",
+    "type": "project",
+    "description": "O uso de padrões de projeto na elaboração de uma matriz de risco",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Artur Pazeto Lopes",
+            "email": "arturpztlopes@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/App"
+        }
+    }
+}
