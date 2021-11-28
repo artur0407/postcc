@@ -29,7 +29,7 @@
         <div class="row">
             <div class="col-md-6">
                 <figure class="figure">
-                    <img src="src/assets/matriz.jpeg" id="matriz" class="figure-img img-fluid rounded" alt="Matriz de Risco - Covid 19" title="Mariz de Risco - Covid 19">
+                    <img src="src/assets/img/matriz.jpeg" id="matriz" class="figure-img img-fluid rounded" alt="Matriz de Risco - Covid 19" title="Mariz de Risco - Covid 19">
                     <figcaption class="figure-caption text-right"> Imagem ilustrativa para monitoramento - Fonte: Prefeitura de Maringá</figcaption>
                 </figure>
             </div>

@@ -17,6 +17,25 @@ class TaxaCritica implements IStateTaxaDePositividade
         return "Critica";
     }
 
+    public function verificarTaxa($taxa1, $taxa2, $estado)
+    {
+        if ($taxa1 > 0 && $taxa2 > 0) {
+            if ($this->taxa >= $taxa1 && $this->taxa <= $taxa2) {
+                $this->context->setState($estado);
+            }
+        } else {
+            if ($taxa1 > 0 && $taxa2 == 0) { 
+                if ($this->taxa <= $taxa1) {
+                    $this->context->setState($estado);
+                }
+            } else if ($taxa1 == 0 && $taxa2 > 0) { 
+                if ($this->taxa > $taxa2) {
+                    $this->context->setState($estado);
+                }
+            }
+        }
+    }
+
     public function minima() 
     {
         if ($this->taxa <= 20) {
