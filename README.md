@@ -6,7 +6,7 @@
 
 #### Objetivo
 
-<p> No projeto é demonstrado como o uso de padrões de projeto contribuiu na construção de um programa  que tem como objetivo final o processamento de uma matriz de risco a partir de dados inseridos externamente.</p>
+<p> No projeto é demonstrado como o uso de padrões de projeto pode contribuir na construção de um programa  que tem como objetivo final o processamento de uma matriz de risco a partir de dados inseridos externamente.</p>
 
 #### Desenvolvimento do trabalho
 
@@ -38,7 +38,7 @@ https://youtu.be/vyllJjI6QaI
 
 #### Link do Projeto em Funcionamento
 
-http://www.arturweb.com.br/postcc/
+https://www.arturweb.com.br/postcc/
 
 #### Autores
 
