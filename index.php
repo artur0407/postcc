@@ -36,7 +36,7 @@
             <div class="col-md-6">
                 <div class="card border-secondary mb-3">
                     <div class="card-header text-center font-weight-bold">
-                        Informe as taxas (%) para processamento
+                        Informe as taxas (%) para processamento <small> <b> (somente números) </b> </small>
                     </div>
                     <form id="processar" action="" method="POST">
                         <div class="card-body text-secondary">

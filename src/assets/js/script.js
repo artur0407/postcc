@@ -17,6 +17,10 @@ $(document).ready(function() {
 
     $("img#matriz").css("-webkit-filter", "grayscale(1)");
 
+    $('#input_taxa_positividade, #input_taxa_uti').keyup(function() {
+        $(this).val(this.value.replace(/\D/g, ''));
+    });
+
     enableDisable(true, 'btn btn-dark');
 
     $("#selectProcessamento").change(function() {
